@@ -1,0 +1,20 @@
+.button_list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 13px 32px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  border-color: lightgrey;
+}
+
+.button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
